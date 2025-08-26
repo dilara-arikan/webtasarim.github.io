@@ -66,6 +66,7 @@ nav ul li a:hover{
 .ilkparagraf .resim1{
     flex: 1;
     text-align: center;
+    padding:150px;
 }
 .ilkparagraf .resim1 img{
     width: 100%;
@@ -173,4 +174,5 @@ nav ul li a:hover{
 .rezervasyon p bir{
     font-weight:bold;
     color:#760E0E;
+
 }
