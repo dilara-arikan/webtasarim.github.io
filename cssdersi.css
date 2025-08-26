@@ -1,0 +1,176 @@
+
+h1{
+font-family:'Times New Roman', Times, serif;
+color: #760E0E;
+text-align: center;
+} 
+.basibura{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+.baslik{
+    background-color:#FFF8DC;
+    height: 90px ;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0;
+    
+}
+.baslik h5{
+    text-align:center ;
+    padding-top:-10px;
+    font-weight: 600;
+}
+.cizgi{
+    border-bottom: 1px solid black;
+    margin: 0;
+}
+nav{
+    background-color:#fff;
+    padding: 15px 0;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+nav ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+nav ul li a:hover{
+    color:brown;
+}
+.ilkparagraf{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 40px;
+
+}
+.ilkparagraf .paragraf{
+    flex: 1;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333;
+    text-align: left;
+
+}
+.ilkparagraf .resim1{
+    flex: 1;
+    text-align: center;
+}
+.ilkparagraf .resim1 img{
+    width: 100%;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, gree0, 0, 0.3);
+      transform: rotate(3deg);
+}
+.ikinciparagraf{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 40px;
+}
+.ikinciparagraf .paragraf2{
+    flex: 1;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333;
+    text-align: left;
+
+}
+.ikinciparagraf .resim2{
+    flex: 1;
+    text-align: center;
+}
+.ikinciparagraf .resim2 img{
+    width: 100%;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transform: rotate(-2deg);
+}
+.buyukfoto{
+    text-align: center;
+    padding: 50px 20px;
+}
+.buyukfoto img{
+     width: 100%; 
+     max-width: 900px; 
+     max-width: 900px; 
+     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+     margin-bottom: 20px;
+}
+.buyukfoto p{
+ font-size: 20px;
+  line-height: 1.6;
+  color: #333;
+  text-align: center;
+}
+#menu {
+  text-align: center;
+  padding: 50px 20px;
+  margin: 50px;
+}
+
+.menu-kartlar {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap; /* ekran küçükse alt satıra geçer */
+}
+
+.yemek-kart {
+  width: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.yemek-kart img {
+  width: 100%;
+  display: block;
+}
+
+.yemek-kart h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #760E0E;
+  text-align: center;
+}
+
+.yemek-kart:hover {
+  transform: scale(1.05); /* hover efektiyle hafif büyür */
+}
+.content{
+    margin: 0;
+     padding-top:150px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content p{
+    text-align: left;
+   
+}
+.foto img{
+  width: 500px;
+}
+.rezervasyon p{
+    font-weight:500;
+    font-size: larger;
+
+}
+.rezervasyon p bir{
+    font-weight:bold;
+    color:#760E0E;
+}
