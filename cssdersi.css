@@ -165,6 +165,7 @@ nav ul li a:hover{
 }
 .foto img{
   width: 500px;
+    padding:150px;
 }
 .rezervasyon p{
     font-weight:500;
@@ -176,3 +177,4 @@ nav ul li a:hover{
     color:#760E0E;
 
 }
+
